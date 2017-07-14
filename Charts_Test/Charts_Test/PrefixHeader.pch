@@ -20,7 +20,11 @@
 #import "FourthViewController.h"
 #import "FivethViewController.h"
 
-
+/** swift -> objective-c **/
+/**
+ *    桥接文件
+ */
+#import "Charts_Test-Bridging-Header.h"
 
 
 /** 自定义NSLog **/

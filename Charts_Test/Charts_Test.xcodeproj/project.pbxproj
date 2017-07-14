@@ -17,6 +17,7 @@
 		1A018D0C1F18720B001F3B8D /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A018D0B1F18720B001F3B8D /* ThirdViewController.m */; };
 		1A018D0F1F187242001F3B8D /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A018D0E1F187242001F3B8D /* FourthViewController.m */; };
 		1A018D121F187255001F3B8D /* FivethViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A018D111F187255001F3B8D /* FivethViewController.m */; };
+		4DC25A1EA323F28CB0930677 /* Pods_Charts_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845FF5FBE1E13C3A4C0515C2 /* Pods_Charts_Test.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,10 @@
 		1A018D101F187255001F3B8D /* FivethViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FivethViewController.h; sourceTree = "<group>"; };
 		1A018D111F187255001F3B8D /* FivethViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FivethViewController.m; sourceTree = "<group>"; };
 		1A018D131F187298001F3B8D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		1A018D461F18A3EA001F3B8D /* Charts_Test-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Charts_Test-Bridging-Header.h"; sourceTree = "<group>"; };
+		4A70671E1B66C259D6B4C123 /* Pods-Charts_Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Charts_Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Charts_Test/Pods-Charts_Test.debug.xcconfig"; sourceTree = "<group>"; };
+		845FF5FBE1E13C3A4C0515C2 /* Pods_Charts_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Charts_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC5E83CA1B2E667D15117BA5 /* Pods-Charts_Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Charts_Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-Charts_Test/Pods-Charts_Test.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DC25A1EA323F28CB0930677 /* Pods_Charts_Test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +63,8 @@
 			children = (
 				1A018CEF1F186F7F001F3B8D /* Charts_Test */,
 				1A018CEE1F186F7F001F3B8D /* Products */,
+				22F8C53990A344A42B6BD20E /* Pods */,
+				85738E7CDCD602E56323198E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,6 +92,7 @@
 				1A018CFE1F186F7F001F3B8D /* LaunchScreen.storyboard */,
 				1A018D011F186F7F001F3B8D /* Info.plist */,
 				1A018CF01F186F7F001F3B8D /* Supporting Files */,
+				1A018D461F18A3EA001F3B8D /* Charts_Test-Bridging-Header.h */,
 			);
 			path = Charts_Test;
 			sourceTree = "<group>";
@@ -141,6 +150,23 @@
 			name = Fiveth;
 			sourceTree = "<group>";
 		};
+		22F8C53990A344A42B6BD20E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A70671E1B66C259D6B4C123 /* Pods-Charts_Test.debug.xcconfig */,
+				DC5E83CA1B2E667D15117BA5 /* Pods-Charts_Test.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		85738E7CDCD602E56323198E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				845FF5FBE1E13C3A4C0515C2 /* Pods_Charts_Test.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -148,9 +174,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A018D041F186F7F001F3B8D /* Build configuration list for PBXNativeTarget "Charts_Test" */;
 			buildPhases = (
+				2350BF0CC9C3FF3C822570A7 /* [CP] Check Pods Manifest.lock */,
 				1A018CE91F186F7F001F3B8D /* Sources */,
 				1A018CEA1F186F7F001F3B8D /* Frameworks */,
 				1A018CEB1F186F7F001F3B8D /* Resources */,
+				3BB35BDAF088C16F6ADC54E7 /* [CP] Embed Pods Frameworks */,
+				1BF564CB801195A9A243DF00 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -173,6 +202,7 @@
 					1A018CEC1F186F7F001F3B8D = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 2PC8J9MPF4;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -207,6 +237,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BF564CB801195A9A243DF00 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Charts_Test/Pods-Charts_Test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2350BF0CC9C3FF3C822570A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3BB35BDAF088C16F6ADC54E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Charts_Test/Pods-Charts_Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1A018CE91F186F7F001F3B8D /* Sources */ = {
@@ -339,8 +417,10 @@
 		};
 		1A018D051F186F7F001F3B8D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A70671E1B66C259D6B4C123 /* Pods-Charts_Test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 2PC8J9MPF4;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Charts_Test/PrefixHeader.pch";
@@ -348,13 +428,18 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ljm.Charts-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Charts_Test/Charts_Test-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		1A018D061F186F7F001F3B8D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC5E83CA1B2E667D15117BA5 /* Pods-Charts_Test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 2PC8J9MPF4;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Charts_Test/PrefixHeader.pch";
@@ -362,6 +447,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ljm.Charts-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Charts_Test/Charts_Test-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -384,6 +471,7 @@
 				1A018D061F186F7F001F3B8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
