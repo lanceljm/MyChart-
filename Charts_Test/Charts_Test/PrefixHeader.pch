@@ -12,6 +12,9 @@
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 
+#import "DateValueFormatter.h"
+#import "SetValueFormatter.h"
+
 
 /** 各图表头文件 **/
 #import "ViewController.h"
@@ -25,6 +28,10 @@
  *    桥接文件
  */
 #import "Charts_Test-Bridging-Header.h"
+
+
+/** 图表的边界 **/
+#define borderView_WIDTH SCREENWIDTH * 0.1
 
 
 /** 自定义NSLog **/

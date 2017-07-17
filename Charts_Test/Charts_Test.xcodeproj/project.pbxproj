@@ -17,6 +17,8 @@
 		1A018D0C1F18720B001F3B8D /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A018D0B1F18720B001F3B8D /* ThirdViewController.m */; };
 		1A018D0F1F187242001F3B8D /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A018D0E1F187242001F3B8D /* FourthViewController.m */; };
 		1A018D121F187255001F3B8D /* FivethViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A018D111F187255001F3B8D /* FivethViewController.m */; };
+		1AD47FBB1F18B1AF0031DEC9 /* DateValueFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD47FBA1F18B1AF0031DEC9 /* DateValueFormatter.m */; };
+		1AD47FBE1F18B2980031DEC9 /* SetValueFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD47FBD1F18B2980031DEC9 /* SetValueFormatter.m */; };
 		4DC25A1EA323F28CB0930677 /* Pods_Charts_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845FF5FBE1E13C3A4C0515C2 /* Pods_Charts_Test.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +43,10 @@
 		1A018D111F187255001F3B8D /* FivethViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FivethViewController.m; sourceTree = "<group>"; };
 		1A018D131F187298001F3B8D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		1A018D461F18A3EA001F3B8D /* Charts_Test-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Charts_Test-Bridging-Header.h"; sourceTree = "<group>"; };
+		1AD47FB91F18B1AF0031DEC9 /* DateValueFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateValueFormatter.h; sourceTree = "<group>"; };
+		1AD47FBA1F18B1AF0031DEC9 /* DateValueFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateValueFormatter.m; sourceTree = "<group>"; };
+		1AD47FBC1F18B2980031DEC9 /* SetValueFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetValueFormatter.h; sourceTree = "<group>"; };
+		1AD47FBD1F18B2980031DEC9 /* SetValueFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetValueFormatter.m; sourceTree = "<group>"; };
 		4A70671E1B66C259D6B4C123 /* Pods-Charts_Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Charts_Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Charts_Test/Pods-Charts_Test.debug.xcconfig"; sourceTree = "<group>"; };
 		845FF5FBE1E13C3A4C0515C2 /* Pods_Charts_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Charts_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC5E83CA1B2E667D15117BA5 /* Pods-Charts_Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Charts_Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-Charts_Test/Pods-Charts_Test.release.xcconfig"; sourceTree = "<group>"; };
@@ -82,6 +88,7 @@
 				1A018CF31F186F7F001F3B8D /* AppDelegate.h */,
 				1A018CF41F186F7F001F3B8D /* AppDelegate.m */,
 				1A018D131F187298001F3B8D /* PrefixHeader.pch */,
+				1A2F1E531F18B598003D7247 /* ChartConfig */,
 				1A018D3C1F189AA0001F3B8D /* First */,
 				1A018D3D1F189AAE001F3B8D /* Second */,
 				1A018D3E1F189AB6001F3B8D /* Third */,
@@ -148,6 +155,17 @@
 				1A018D111F187255001F3B8D /* FivethViewController.m */,
 			);
 			name = Fiveth;
+			sourceTree = "<group>";
+		};
+		1A2F1E531F18B598003D7247 /* ChartConfig */ = {
+			isa = PBXGroup;
+			children = (
+				1AD47FB91F18B1AF0031DEC9 /* DateValueFormatter.h */,
+				1AD47FBA1F18B1AF0031DEC9 /* DateValueFormatter.m */,
+				1AD47FBC1F18B2980031DEC9 /* SetValueFormatter.h */,
+				1AD47FBD1F18B2980031DEC9 /* SetValueFormatter.m */,
+			);
+			name = ChartConfig;
 			sourceTree = "<group>";
 		};
 		22F8C53990A344A42B6BD20E /* Pods */ = {
@@ -296,7 +314,9 @@
 				1A018D0C1F18720B001F3B8D /* ThirdViewController.m in Sources */,
 				1A018D121F187255001F3B8D /* FivethViewController.m in Sources */,
 				1A018CF81F186F7F001F3B8D /* ViewController.m in Sources */,
+				1AD47FBE1F18B2980031DEC9 /* SetValueFormatter.m in Sources */,
 				1A018CF51F186F7F001F3B8D /* AppDelegate.m in Sources */,
+				1AD47FBB1F18B1AF0031DEC9 /* DateValueFormatter.m in Sources */,
 				1A018CF21F186F7F001F3B8D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

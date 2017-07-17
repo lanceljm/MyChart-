@@ -68,7 +68,8 @@
     [tab addChildViewController :   nfovc];
     [tab addChildViewController :   nfivc];
     
-    tab.selectedIndex = 2;
+    /** 默认选中的界面 **/
+    tab.selectedIndex = 0;
     
     self.window.rootViewController = tab;
     [self.window makeKeyAndVisible];
